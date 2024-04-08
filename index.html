@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no">
+    <title>Eclipse TV</title>
+    <link rel="stylesheet" href="assets/stylesheet/index.css">
+  </head>
+  <body onload="onCreate();">
+    <div class="iLoaderCover">
+<div class="iLoader">
+  <div class="iSpinner iOne">
+  </div>
+  </div>
+</div>
+    <div>
+      <div class="nav">
+          <img src="assets/logo.webp" onClick="change();">
+        <h1 class="titlee" id="nav"></h1>
+        <div class="manga" id="manga" onClick="manga();"></div>
+      </div>
+      <div class="title" id="title"></div>
+      <hr width="50%">
+      <div class="desc" id="desc"></div>
+      <div class="download" id="install" onClick="load();"></div>
+      <div class="holder">
+        <div class="share" id="share" onClick="share();"></div>
+      <div class="share" id="social" onClick="github();"></div>
+      </div>
+      <div class="title" id="feature"></div>
+      <hr width="50%">
+      <div class="feature">
+        <div class="header" id="ftr1"></div>
+        <div class="text" id="txt1"></div>
+      </div>
+      <div class="feature">
+        <div class="header" id="ftr2"></div>
+        <div class="text" id="txt2"></div>
+      </div>
+      <div class="feature">
+        <div class="header" id="ftr3"></div>
+        <div class="text" id="txt3"></div>
+      </div>
+      <footer class="iFooter">
+        <div class="foot">
+          <img src="assets/logo.webp">
+          <div id="foot"></div>
+          <div class="social">
+          <i class="fa-brands fa-discord" onClick="discord();"></i>
+          <i class="fa-brands fa-github" onClick="github();"></i>
+        </div>
+        </div>
+            <p class="iCopyright" id="footer"></p>
+            <hr width="69%">
+         </footer>
+         <div id="snackbar"><i class="fas fa-spinner fa-spin"></i> Loading URL...</div>
+         <div id="custom"></div>
+    </div>
+    <script src="assets/javascript/strings.js"></script>
+    <script src="assets/javascript/index.js"></script>
+  </body>
+</html>
